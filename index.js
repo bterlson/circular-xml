@@ -1,5 +1,5 @@
-import node from "xmlbuilder/lib/XMLElement";
-import builder from "xmlbuilder/lib/index";
+
+import builder from "xmlbuilder";
 
 var xml = builder.create('root')
     .ele('xmlbuilder')
